@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/2.0.0/). This project **DOES NOT** adhere to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) because it will not be actively maintained after its delivery. This changelog is meant more as a journal.
 
+## [2026-10-28]
+
+I decided to use [Go](https://go.dev) instead of [.NET](https://dot.net) for the back-end. The motivation for this was mainly educational, so I can properly learn a new programming language with a decently sized project.
+
+### Added
+- Root [`.editorconfig`](.editorconfig) for project-wide coverage
+- A barebones Go module running an example HTTP server
+
+### Removed
+- All .NET-related files and folders
+
 ## [2026-10-20]
 
 ### Added
